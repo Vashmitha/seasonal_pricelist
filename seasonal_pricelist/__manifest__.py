@@ -1,6 +1,6 @@
 {
     'name': 'Seasonal PriceList',
-    'version': '18.0.1.0.0',
+    'version': '1.0',
     'category': 'Extra Tools',
     'description': 'Seasonal Pricelist',
     'sequence': 100,
@@ -8,7 +8,7 @@
     'author': 'Vashmitha',
     'license': 'LGPL-3',
     'website': '',
-    'depends': ['sale', 'product'],
+    'depends': ['sale', 'stock', 'product'],
     'data': [
         'views/sale_order_views.xml',
     ],
